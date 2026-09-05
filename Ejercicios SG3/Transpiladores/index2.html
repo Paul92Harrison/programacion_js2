@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Async/Await con Babel en el Navegador</title>
+  <!-- Babel standalone para transpilar en el navegador -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Polyfill para async/await (regeneratorRuntime) -->
+  <script src="https://unpkg.com/regenerator-runtime/runtime.js"></script>
+</head>
+<body>
+  <h1>Transpilación de async/await con Babel</h1>
+  <pre id="output">Esperando respuesta...</pre>
+
+  <!-- Código moderno con async/await -->
+  <script type="text/babel">
+    function responderDespues2sec() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve("✅ Respuesta después de 2 segundos");
+        }, 2000);
+      });
+    }
+
+    async function asyncCall() {
+      try {
+        document.getElementById("output").textContent = "⏳ Llamando a la función...";
+        const respuesta = await responderDespues2sec();
+        document.getElementById("output").textContent = respuesta;
+      } catch (error) {
+        document.getElementById("output").textContent = "❌ Error: " + error;
+      }
+    }
+
+    asyncCall();
+  </script>
+</body>
+</html>

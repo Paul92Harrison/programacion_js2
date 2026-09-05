@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1788407311369" clover="3.2.0">
+  <project timestamp="1788407311369" name="All files">
+    <metrics statements="41" coveredstatements="39" conditionals="11" coveredconditionals="11" methods="15" coveredmethods="14" elements="67" coveredelements="64" complexity="0" loc="41" ncloc="41" packages="6" files="6" classes="6"/>
+    <package name="1. ejercicio1">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ejercicio1.js" path="/Users/paulsanchez/Documents/programacion_con_JS_2/Pruebas/1. ejercicio1/ejercicio1.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="2. arrays">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="array.js" path="/Users/paulsanchez/Documents/programacion_con_JS_2/Pruebas/2. arrays/array.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="3. operaciones">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="operaciones.js" path="/Users/paulsanchez/Documents/programacion_con_JS_2/Pruebas/3. operaciones/operaciones.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="4. lenguajes">
+      <metrics statements="9" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="lenguajes.js" path="/Users/paulsanchez/Documents/programacion_con_JS_2/Pruebas/4. lenguajes/lenguajes.js">
+        <metrics statements="9" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="5. objectMapping">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="objectMapping.js" path="/Users/paulsanchez/Documents/programacion_con_JS_2/Pruebas/5. objectMapping/objectMapping.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="6. valoresNumericos">
+      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+      <file name="valoresNumericos.js" path="/Users/paulsanchez/Documents/programacion_con_JS_2/Pruebas/6. valoresNumericos/valoresNumericos.js">
+        <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="20" type="stmt"/>
+        <line num="20" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
